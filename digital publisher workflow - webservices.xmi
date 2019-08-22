@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XMI xmlns:UML="http://schema.omg.org/spec/UML/1.3" xmi.version="1.2" timestamp="2019-03-20T17:27:19" verified="false">
+ <XMI.header>
+  <XMI.documentation>
+   <XMI.exporter>umbrello uml modeller http://umbrello.kde.org</XMI.exporter>
+   <XMI.exporterVersion>1.6.10</XMI.exporterVersion>
+   <XMI.exporterEncoding>UnicodeUTF8</XMI.exporterEncoding>
+  </XMI.documentation>
+  <XMI.metamodel href="UML.xml" xmi.name="UML" xmi.version="1.3"/>
+ </XMI.header>
+ <XMI.content>
+  <UML:Model isAbstract="false" isRoot="false" isLeaf="false" isSpecification="false" xmi.id="m1" name="UML Model">
+   <UML:Namespace.ownedElement>
+    <UML:Stereotype isAbstract="false" isRoot="false" visibility="public" isLeaf="false" isSpecification="false" namespace="m1" xmi.id="folder" name="folder"/>
+    <UML:Stereotype isAbstract="false" isRoot="false" visibility="public" isLeaf="false" isSpecification="false" namespace="m1" xmi.id="datatype" name="datatype"/>
+    <UML:Stereotype isAbstract="false" isRoot="false" visibility="public" isLeaf="false" isSpecification="false" namespace="m1" xmi.id="dZ6ulTQfgL9w" name="GET"/>
+    <UML:Model isAbstract="false" isRoot="false" visibility="public" isLeaf="false" isSpecification="false" namespace="m1" xmi.id="Logical View" name="Logical View">
+     <UML:Namespace.ownedElement>
+      <UML:Package isAbstract="false" isRoot="false" visibility="public" stereotype="folder" isLeaf="false" isSpecification="false" namespace="Logical View" xmi.id="Datatypes" name="Datatypes">
+       <UML:Namespace.ownedElement>
+        <UML:DataType isAbstract="false" isRoot="false" visibility="public" stereotype="datatype" isLeaf="false" isSpecification="false" namespace="Datatypes" xmi.id="xIWSFpttnRx3" name="int"/>
+        <UML:DataType isAbstract="false" isRoot="false" visibility="public" stereotype="datatype" isLeaf="false" isSpecification="false" namespace="Datatypes" xmi.id="MWwwgeYlCGf3" name="char"/>
+        <UML:DataType isAbstract="false" isRoot="false" visibility="public" stereotype="datatype" isLeaf="false" isSpecification="false" namespace="Datatypes" xmi.id="RJWi6Hjjxb0S" name="bool"/>
+        <UML:DataType isAbstract="false" isRoot="false" visibility="public" stereotype="datatype" isLeaf="false" isSpecification="false" namespace="Datatypes" xmi.id="ittxDnSu587d" name="float"/>
+        <UML:DataType isAbstract="false" isRoot="false" visibility="public" stereotype="datatype" isLeaf="false" isSpecification="false" namespace="Datatypes" xmi.id="Ssm3VzYTNcLa" name="double"/>
+        <UML:DataType isAbstract="false" isRoot="false" visibility="public" stereotype="datatype" isLeaf="false" isSpecification="false" namespace="Datatypes" xmi.id="TZL5TWww4Dg3" name="short"/>
+        <UML:DataType isAbstract="false" isRoot="false" visibility="public" stereotype="datatype" isLeaf="false" isSpecification="false" namespace="Datatypes" xmi.id="zngn6sk2i7UT" name="long"/>
+        <UML:DataType isAbstract="false" isRoot="false" visibility="public" stereotype="datatype" isLeaf="false" isSpecification="false" namespace="Datatypes" xmi.id="BaSPEo0HapEp" name="unsigned int"/>
+        <UML:DataType isAbstract="false" isRoot="false" visibility="public" stereotype="datatype" isLeaf="false" isSpecification="false" namespace="Datatypes" xmi.id="1XzBMY1oB2r0" name="unsigned short"/>
+        <UML:DataType isAbstract="false" isRoot="false" visibility="public" stereotype="datatype" isLeaf="false" isSpecification="false" namespace="Datatypes" xmi.id="y4AJe8Xvy2Vg" name="unsigned long"/>
+        <UML:DataType isAbstract="false" isRoot="false" visibility="public" stereotype="datatype" isLeaf="false" isSpecification="false" namespace="Datatypes" xmi.id="FEwVvGVVZdmU" name="string"/>
+       </UML:Namespace.ownedElement>
+      </UML:Package>
+      <UML:Class isAbstract="false" isRoot="false" visibility="public" isLeaf="false" isSpecification="false" namespace="Logical View" xmi.id="3DR1UZdlwyjT" name="Publisher">
+       <UML:Classifier.feature>
+        <UML:Operation isAbstract="false" isRoot="false" visibility="public" isLeaf="false" isSpecification="false" isQuery="false" xmi.id="qjmbGnXSVh0o" name="ArticleSubmission"/>
+        <UML:Operation isAbstract="false" isRoot="false" visibility="public" isLeaf="false" isSpecification="false" isQuery="false" xmi.id="c6aovPe8bO9U" name="ArticleEditing"/>
+       </UML:Classifier.feature>
+      </UML:Class>
+      <UML:Class isAbstract="false" isRoot="false" visibility="public" isLeaf="false" isSpecification="false" namespace="Logical View" xmi.id="PRkFNv0u5323" name="RegistrationSubmission"/>
+      <UML:Class isAbstract="false" isRoot="false" visibility="public" isLeaf="false" isSpecification="false" namespace="Logical View" xmi.id="JzXHXcDNR9dU" name="RegistrationStatus">
+       <UML:Classifier.feature>
+        <UML:Operation isAbstract="false" isRoot="false" visibility="public" stereotype="dZ6ulTQfgL9w" isLeaf="false" isSpecification="false" isQuery="false" xmi.id="CpaDfJgQvAUm" name="/registration/{identifier-urlencoded}"/>
+       </UML:Classifier.feature>
+      </UML:Class>
+      <UML:Class isAbstract="false" isRoot="false" visibility="public" isLeaf="false" isSpecification="false" namespace="Logical View" xmi.id="GLIts0KklgQJ" name="&quot;/registration/{identifier-urlencoded}&quot;"/>
+      <UML:Class isAbstract="false" isRoot="false" visibility="public" isLeaf="false" isSpecification="false" namespace="Logical View" xmi.id="3ALKfbZerI3B" name="AuthorTeam"/>
+     </UML:Namespace.ownedElement>
+     <XMI.extension xmi.extender="umbrello">
+      <diagrams>
+       <diagram griddotcolor="#d3d3d3" showopsig="1" snapx="25" snapy="25" showpackage="1" fillcolor="#ffff00" showatts="1" showpubliconly="0" xmi.id="zpWpwWO54MPz" font="Noto Sans,10,-1,5,50,0,0,0,0,0" canvaswidth="0" canvasheight="0" linecolor="#ff0000" backgroundcolor="#ffffff" showops="1" documentation="" type="1" showattribassocs="1" showstereotype="1" showgrid="0" linewidth="0" zoom="100" name="class diagram" snapcsgrid="0" usefillcolor="1" localid="-1" isopen="0" showattsig="1" snapgrid="0" textcolor="#000000" showscope="1">
+        <widgets/>
+        <messages/>
+        <associations/>
+       </diagram>
+       <diagram griddotcolor="#d3d3d3" showopsig="1" snapx="25" snapy="25" showpackage="1" fillcolor="#ffff00" showatts="1" showpubliconly="0" xmi.id="AG5AUYoxSDh8" font="Noto Sans,10,-1,5,50,0,0,0,0,0" canvaswidth="817.68" canvasheight="892.985" linecolor="#ff0000" backgroundcolor="#ffffff" autoincrementsequence="0" showops="1" documentation="" type="3" showattribassocs="1" showstereotype="1" showgrid="0" linewidth="0" zoom="10" name="registration submission and publication - no curation " snapcsgrid="0" usefillcolor="1" localid="-1" isopen="1" showattsig="1" snapgrid="0" textcolor="#000000" showscope="1">
+        <widgets>
+         <objectwidget fillcolor="none" width="103" multipleinstance="0" xmi.id="3DR1UZdlwyjT" font="Noto Sans,10,-1,5,50,0,0,0,0,0" linecolor="#ff0000" decon="0" drawasactor="0" showstereotype="1" linewidth="0" y="80" height="33" usefillcolor="1" x="-1246" localid="eAgh2pmYJg4N" usesdiagramfillcolor="1" isinstance="0" usesdiagramusefillcolor="1" textcolor="#000000"/>
+         <objectwidget fillcolor="#86e509" width="251" multipleinstance="0" xmi.id="PRkFNv0u5323" font="Noto Sans,10,-1,5,50,0,0,0,0,0" linecolor="#ff0000" decon="0" drawasactor="0" showstereotype="1" linewidth="0" y="80" height="33" usefillcolor="1" x="-993" localid="BNsqvMxuyXgL" usesdiagramfillcolor="0" isinstance="0" usesdiagramusefillcolor="1" textcolor="#000000"/>
+         <objectwidget fillcolor="none" width="123" multipleinstance="0" xmi.id="3ALKfbZerI3B" font="Noto Sans,10,-1,5,50,0,0,0,0,0" linecolor="#ff0000" decon="0" drawasactor="1" showstereotype="1" linewidth="0" y="80" height="68" usefillcolor="1" x="-1506" localid="CZGWMQ7MdmqE" usesdiagramfillcolor="1" isinstance="0" usesdiagramusefillcolor="1" textcolor="#000000"/>
+         <floatingtext fillcolor="#ffff00" width="194" pretext="" xmi.id="f6pUydsmKIaL" font="Noto Sans,10,-1,5,50,0,0,0,0,0" linecolor="#ff0000" posttext="" showstereotype="1" linewidth="0" y="848.203" height="24" text="Status=PUBLISHED | Error" usefillcolor="1" x="-1132.17" localid="VkMLfi642CJj" usesdiagramfillcolor="0" isinstance="0" usesdiagramusefillcolor="0" role="700" textcolor="#000000"/>
+         <floatingtext fillcolor="#ffff00" width="57" pretext="" xmi.id="f6pUydsmKIaL" font="Noto Sans,10,-1,5,50,0,0,0,0,0" linecolor="#ff0000" posttext="" showstereotype="1" linewidth="0" y="193" height="24" text="Review" usefillcolor="1" x="-1271" localid="DrwwMJd33CqG" usesdiagramfillcolor="0" isinstance="0" usesdiagramusefillcolor="0" role="700" textcolor="#000000"/>
+         <floatingtext fillcolor="#ffff00" width="139" pretext="" xmi.id="f6pUydsmKIaL" font="Noto Sans,10,-1,5,50,0,0,0,0,0" linecolor="#ff0000" posttext="" showstereotype="1" linewidth="0" y="824.499" height="24" text="Print &amp; Publication" usefillcolor="1" x="-1345" localid="fm7DjKfKJKiM" usesdiagramfillcolor="0" isinstance="0" usesdiagramusefillcolor="0" role="700" textcolor="#000000"/>
+         <floatingtext fillcolor="#ffff00" width="211" pretext="" xmi.id="f6pUydsmKIaL" font="Noto Sans,10,-1,5,50,0,0,0,0,0" linecolor="#ff0000" posttext="" showstereotype="1" linewidth="0" y="382.616" height="24" text="Status=PREP, identifier|Error" usefillcolor="1" x="-1151" localid="4yiLvrmJ1FrY" usesdiagramfillcolor="0" isinstance="0" usesdiagramusefillcolor="0" role="700" textcolor="#000000"/>
+         <floatingtext fillcolor="#ffff00" width="57" pretext="" xmi.id="f6pUydsmKIaL" font="Noto Sans,10,-1,5,50,0,0,0,0,0" linecolor="#ff0000" posttext="" showstereotype="1" linewidth="0" y="366.616" height="24" text="Review" usefillcolor="1" x="-1273" localid="ue9CX741zCnb" usesdiagramfillcolor="0" isinstance="0" usesdiagramusefillcolor="0" role="700" textcolor="#000000"/>
+         <floatingtext fillcolor="#ffff00" width="253" pretext="" xmi.id="f6pUydsmKIaL" font="Noto Sans,10,-1,5,50,0,0,0,0,0" linecolor="#ff0000" posttext="" showstereotype="1" linewidth="0" y="770.499" height="24" text="data: {pub. date, doi,  pages detail}" usefillcolor="1" x="-1173.47" localid="fr7D8Kx7ZYr7" usesdiagramfillcolor="0" isinstance="0" usesdiagramusefillcolor="0" role="700" textcolor="#000000"/>
+         <floatingtext fillcolor="#ffff00" width="140" pretext="" xmi.id="f6pUydsmKIaL" font="Noto Sans,10,-1,5,50,0,0,0,0,0" linecolor="#ff0000" posttext="" showstereotype="1" linewidth="0" y="582.849" height="24" text="Status=PREP|Error" usefillcolor="1" x="-1114" localid="KV6dvbzXMzV6" usesdiagramfillcolor="0" isinstance="0" usesdiagramusefillcolor="0" role="700" textcolor="#000000"/>
+         <floatingtext fillcolor="#ffff00" width="96" pretext="" xmi.id="f6pUydsmKIaL" font="Noto Sans,10,-1,5,50,0,0,0,0,0" linecolor="#ff0000" posttext="" showstereotype="1" linewidth="0" y="558.895" height="24" text="Copy Editing" usefillcolor="1" x="-1318" localid="VX9stiyCIndC" usesdiagramfillcolor="0" isinstance="0" usesdiagramusefillcolor="0" role="700" textcolor="#000000"/>
+         <floatingtext fillcolor="#ffff00" width="590" pretext="" xmi.id="AtaiTjyvVGLW" font="Noto Sans,14,-1,5,50,0,0,0,0,0" linecolor="#ff0000" posttext="" showstereotype="1" linewidth="0" y="15.0152" height="24" text="Submission to the registration without curatorial intervention by registration office" usefillcolor="1" x="-1556.08" localid="gcni8aLJ4Omg" usesdiagramfillcolor="0" isinstance="0" usesdiagramusefillcolor="0" role="700" textcolor="#000000"/>
+         <combinedFragmentwidget fillcolor="#ffff00" width="642.209" xmi.id="ruMMp6jUEZLZ" font="Noto Sans,10,-1,5,50,0,0,0,0,0" linecolor="#ff0000" CombinedFragmenttype="3" showstereotype="1" documentation="" linewidth="0" y="478.36" height="190.233" usefillcolor="1" x="-1486.05" localid="NyiIIMqWjwRB" usesdiagramfillcolor="0" isinstance="0" usesdiagramusefillcolor="0" combinedFragmentname="while(!editing_done | error)" textcolor="#000000"/>
+         <notewidget fillcolor="#ffffff" width="279" xmi.id="TmhUL40R4MMw" font="Noto Sans,10,-1,5,50,0,0,0,0,0" noteType="0" linecolor="#a6a6a6" showstereotype="1" linewidth="0" y="130.42" height="178" text="Registration status types:&#xa;- PREPARATION&#xa;- CURATION&#xa;- READY&#xa;- PUBLISHED&#xa;- REJECTED" usefillcolor="1" x="-1017.4" localid="X9g2Zp9hl2BX" usesdiagramfillcolor="0" isinstance="0" usesdiagramusefillcolor="0" textcolor="#000000"/>
+         <objectwidget fillcolor="none" width="103" multipleinstance="0" xmi.id="3DR1UZdlwyjT" font="Noto Sans,10,-1,5,50,0,0,0,0,0" linecolor="#ff0000" decon="0" drawasactor="0" showstereotype="1" linewidth="0" y="80" height="33" usefillcolor="1" x="-1246" localid="FJhddal4VPJl" usesdiagramfillcolor="1" isinstance="0" usesdiagramusefillcolor="1" textcolor="#000000"/>
+        </widgets>
+        <messages>
+         <messagewidget fillcolor="none" width="258" seqnum="" xmi.id="qjmbGnXSVh0o" font="Noto Sans,10,-1,5,50,0,0,0,0,0" linecolor="#ff0000" widgetbid="eAgh2pmYJg4N" showstereotype="1" linewidth="0" y="160" operation="qjmbGnXSVh0o" height="87" usefillcolor="1" x="-1444" localid="toxnr6Qr5Sec" usesdiagramfillcolor="1" isinstance="0" textid="dRrqxszRxX1T" usesdiagramusefillcolor="1" sequencemessagetype="1000" textcolor="none" widgetaid="CZGWMQ7MdmqE">
+          <floatingtext fillcolor="none" width="143" pretext="" xmi.id="dRrqxszRxX1T" font="Noto Sans,10,-1,5,50,0,0,0,0,0" linecolor="#ff0000" posttext="" showstereotype="1" linewidth="0" y="136" height="24" text="ArticleSubmission()" usefillcolor="1" x="-1362" localid="BcIyPRDVkQ8D" usesdiagramfillcolor="1" isinstance="0" usesdiagramusefillcolor="1" role="704" textcolor="none"/>
+         </messagewidget>
+         <messagewidget fillcolor="none" width="258" seqnum="" xmi.id="c6aovPe8bO9U" font="Noto Sans,10,-1,5,50,0,0,0,0,0" linecolor="#ff0000" widgetbid="eAgh2pmYJg4N" showstereotype="1" linewidth="0" y="533.197" operation="c6aovPe8bO9U" height="96" usefillcolor="1" x="-1444" localid="Qijdn3so4o5y" usesdiagramfillcolor="1" isinstance="0" textid="LpBJHlTAadY3" usesdiagramusefillcolor="1" sequencemessagetype="1000" textcolor="none" widgetaid="CZGWMQ7MdmqE">
+          <floatingtext fillcolor="none" width="111" pretext="" xmi.id="LpBJHlTAadY3" font="Noto Sans,10,-1,5,50,0,0,0,0,0" linecolor="#ff0000" posttext="" showstereotype="1" linewidth="0" y="509" height="24" text="ArticleEditing()" usefillcolor="1" x="-1328" localid="gKs9VTTe22me" usesdiagramfillcolor="1" isinstance="0" usesdiagramusefillcolor="1" role="704" textcolor="none"/>
+         </messagewidget>
+         <messagewidget fillcolor="none" width="335" seqnum="" xmi.id="5RSKtkX46XkQ" font="Noto Sans,10,-1,5,50,0,0,0,0,0" linecolor="#ff0000" widgetbid="BNsqvMxuyXgL" showstereotype="1" linewidth="0" y="360.616" operation="POST(&quot;/registration/&quot;)" height="53" usefillcolor="1" x="-1194" localid="fks8Ii6e1THf" usesdiagramfillcolor="1" isinstance="0" textid="GzA5jXFQ4azy" usesdiagramusefillcolor="1" sequencemessagetype="1000" textcolor="none" widgetaid="eAgh2pmYJg4N">
+          <floatingtext fillcolor="none" width="160" pretext="" xmi.id="GzA5jXFQ4azy" font="Noto Sans,10,-1,5,50,0,0,0,0,0" linecolor="#ff0000" posttext="" showstereotype="1" linewidth="0" y="336" height="24" text="POST(&quot;/registration/&quot;)" usefillcolor="1" x="-1077" localid="rNVelgSpwUGu" usesdiagramfillcolor="1" isinstance="0" usesdiagramusefillcolor="1" role="704" textcolor="none"/>
+         </messagewidget>
+         <messagewidget fillcolor="none" width="335" seqnum="" xmi.id="Fzkq8yNcbWmf" font="Noto Sans,10,-1,5,50,0,0,0,0,0" linecolor="#ff0000" widgetbid="BNsqvMxuyXgL" showstereotype="1" linewidth="0" y="540.174" operation="PUT(&quot;/registration/{identifier}&quot;)" height="73" usefillcolor="1" x="-1194" localid="HANRoHWVYqCt" usesdiagramfillcolor="1" isinstance="0" textid="lqMVB55tUmmU" usesdiagramusefillcolor="1" sequencemessagetype="1000" textcolor="none" widgetaid="eAgh2pmYJg4N">
+          <floatingtext fillcolor="none" width="226" pretext="" xmi.id="lqMVB55tUmmU" font="Noto Sans,10,-1,5,50,0,0,0,0,0" linecolor="#ff0000" posttext="" showstereotype="1" linewidth="0" y="516" height="24" text="PUT(&quot;/registration/{identifier}&quot;)" usefillcolor="1" x="-1146" localid="yc6cwa90zMC6" usesdiagramfillcolor="1" isinstance="0" usesdiagramusefillcolor="1" role="704" textcolor="none"/>
+         </messagewidget>
+         <messagewidget fillcolor="none" width="258" seqnum="" xmi.id="c6aovPe8bO9U" font="Noto Sans,10,-1,5,50,0,0,0,0,0" linecolor="#ff0000" widgetbid="eAgh2pmYJg4N" showstereotype="1" linewidth="0" y="332.616" operation="c6aovPe8bO9U" height="96" usefillcolor="1" x="-1444" localid="H22ZUZymGQMl" usesdiagramfillcolor="1" isinstance="0" textid="2fWb11elenEj" usesdiagramusefillcolor="1" sequencemessagetype="1000" textcolor="none" widgetaid="CZGWMQ7MdmqE">
+          <floatingtext fillcolor="none" width="111" pretext="" xmi.id="2fWb11elenEj" font="Noto Sans,10,-1,5,50,0,0,0,0,0" linecolor="#ff0000" posttext="" showstereotype="1" linewidth="0" y="308" height="24" text="ArticleEditing()" usefillcolor="1" x="-1328" localid="COgdP3bw0Rp1" usesdiagramfillcolor="1" isinstance="0" usesdiagramusefillcolor="1" role="704" textcolor="none"/>
+         </messagewidget>
+         <messagewidget fillcolor="none" width="335" seqnum="" xmi.id="83gIaDBBMr3n" font="Noto Sans,10,-1,5,50,0,0,0,0,0" linecolor="#ff0000" widgetbid="BNsqvMxuyXgL" showstereotype="1" linewidth="0" y="765.499" operation="PUT(&quot;/registration/{identifier}&quot;)" height="123" usefillcolor="1" x="-1194" localid="AC29jT6XMlh4" usesdiagramfillcolor="1" isinstance="0" textid="lvtlviOKoHKI" usesdiagramusefillcolor="1" sequencemessagetype="1000" textcolor="none" widgetaid="eAgh2pmYJg4N">
+          <floatingtext fillcolor="none" width="226" pretext="" xmi.id="lvtlviOKoHKI" font="Noto Sans,10,-1,5,50,0,0,0,0,0" linecolor="#ff0000" posttext="" showstereotype="1" linewidth="0" y="741" height="24" text="PUT(&quot;/registration/{identifier}&quot;)" usefillcolor="1" x="-1146" localid="Y8Gv6ob9cLYo" usesdiagramfillcolor="1" isinstance="0" usesdiagramusefillcolor="1" role="704" textcolor="none"/>
+         </messagewidget>
+         <messagewidget fillcolor="none" width="50" seqnum="" xmi.id="dKyk4EToa4nN" font="Noto Sans,10,-1,5,50,0,0,0,0,0" linecolor="#ff0000" widgetbid="FJhddal4VPJl" showstereotype="1" linewidth="0" y="702.252" operation="Release Article" height="46" usefillcolor="1" x="-1196" localid="BX69fb4ygXSm" usesdiagramfillcolor="1" isinstance="0" textid="j3imdXnWEPEn" usesdiagramusefillcolor="1" sequencemessagetype="1000" textcolor="none" widgetaid="FJhddal4VPJl">
+          <floatingtext fillcolor="none" width="111" pretext="" xmi.id="j3imdXnWEPEn" font="Noto Sans,10,-1,5,50,0,0,0,0,0" linecolor="#ff0000" posttext="" showstereotype="1" linewidth="0" y="678" height="24" text="Release Article" usefillcolor="1" x="-1191" localid="nUYqdFGYgZGa" usesdiagramfillcolor="1" isinstance="0" usesdiagramusefillcolor="1" role="705" textcolor="none"/>
+         </messagewidget>
+        </messages>
+        <associations/>
+       </diagram>
+       <diagram griddotcolor="#d3d3d3" showopsig="1" snapx="25" snapy="25" showpackage="1" fillcolor="#ffff00" showatts="1" showpubliconly="0" xmi.id="whlAQU1s2F7G" font="Noto Sans,10,-1,5,50,0,0,0,0,0" canvaswidth="219" canvasheight="175" linecolor="#ff0000" backgroundcolor="#ffffff" showops="1" documentation="" type="5" showattribassocs="1" showstereotype="1" showgrid="0" linewidth="0" zoom="100" name="submission and publication" snapcsgrid="0" usefillcolor="1" localid="-1" isopen="0" showattsig="1" snapgrid="0" textcolor="#000000" showscope="1">
+        <widgets>
+         <statewidget fillcolor="#ffff00" width="10" xmi.id="Z6k8uSiAfqjq" font="Noto Sans,10,-1,5,50,0,0,0,0,0" linecolor="#ff0000" statetype="0" statename="State" showstereotype="1" documentation="" linewidth="0" y="-438" height="10" usefillcolor="1" x="-738" localid="grxB2d1jF4cU" usesdiagramfillcolor="0" isinstance="0" usesdiagramusefillcolor="0" textcolor="#000000">
+          <Activities/>
+         </statewidget>
+         <boxwidget y="-343" x="-619" fillcolor="#ffff00" font="Noto Sans,10,-1,5,50,0,0,0,0,0" linewidth="0" showstereotype="1" localid="CXqnD3ChjydB" usefillcolor="1" usesdiagramfillcolor="0" xmi.id="eHRjFoz4E9TA" width="100" textcolor="#000000" height="80" isinstance="0" linecolor="#000000" usesdiagramusefillcolor="0"/>
+        </widgets>
+        <messages/>
+        <associations/>
+       </diagram>
+       <diagram griddotcolor="#d3d3d3" showopsig="1" snapx="25" snapy="25" showpackage="1" fillcolor="#ffff00" showatts="1" showpubliconly="0" xmi.id="MG2K0aVFxcNt" font="Noto Sans,10,-1,5,50,0,0,0,0,0" canvaswidth="1021.8" canvasheight="1784.11" linecolor="#ff0000" backgroundcolor="#ffffff" autoincrementsequence="0" showops="1" documentation="" type="3" showattribassocs="1" showstereotype="1" showgrid="0" linewidth="0" zoom="35,17876291919921" name="submission and publication with curation" snapcsgrid="0" usefillcolor="1" localid="-1" isopen="1" showattsig="1" snapgrid="0" textcolor="#000000" showscope="1">
+        <widgets>
+         <objectwidget fillcolor="none" width="103" multipleinstance="0" xmi.id="3DR1UZdlwyjT" font="Noto Sans,10,-1,5,50,0,0,0,0,0" linecolor="#ff0000" decon="0" drawasactor="0" showstereotype="1" linewidth="0" y="80" height="33" usefillcolor="1" x="-1246" localid="FmFjfY0rcZfV" usesdiagramfillcolor="1" isinstance="0" usesdiagramusefillcolor="1" textcolor="#000000"/>
+         <objectwidget fillcolor="none" width="123" multipleinstance="0" xmi.id="3ALKfbZerI3B" font="Noto Sans,10,-1,5,50,0,0,0,0,0" linecolor="#ff0000" decon="0" drawasactor="1" showstereotype="1" linewidth="0" y="80" height="68" usefillcolor="1" x="-1506" localid="WylleRWS6aIO" usesdiagramfillcolor="1" isinstance="0" usesdiagramusefillcolor="1" textcolor="#000000"/>
+         <objectwidget fillcolor="#86e509" width="214" multipleinstance="0" xmi.id="PRkFNv0u5323" font="Noto Sans,10,-1,5,50,0,0,0,0,0" linecolor="#ff0000" decon="0" drawasactor="0" showstereotype="1" linewidth="0" y="80" height="33" usefillcolor="1" x="-932.165" localid="J6nfX2oqEkve" usesdiagramfillcolor="0" isinstance="0" usesdiagramusefillcolor="1" textcolor="#000000"/>
+         <objectwidget fillcolor="#86e509" width="174" multipleinstance="0" xmi.id="JzXHXcDNR9dU" font="Noto Sans,10,-1,5,50,0,0,0,0,0" linecolor="#ff0000" decon="0" drawasactor="0" showstereotype="1" linewidth="0" y="80" height="33" usefillcolor="1" x="-694" localid="n7t72HySalvv" usesdiagramfillcolor="0" isinstance="0" usesdiagramusefillcolor="1" textcolor="#000000"/>
+         <floatingtext fillcolor="#ffff00" width="275" pretext="" xmi.id="f6pUydsmKIaL" font="Noto Sans,10,-1,5,50,0,0,0,0,0" linecolor="#ff0000" posttext="" showstereotype="1" linewidth="0" y="329.678" height="24" text="status=PREPARATION, identifier|error" usefillcolor="1" x="-1169.52" localid="LZYloXJkphzg" usesdiagramfillcolor="0" isinstance="0" usesdiagramusefillcolor="0" role="700" textcolor="#000000"/>
+         <floatingtext fillcolor="#ffff00" width="199" pretext="" xmi.id="f6pUydsmKIaL" font="Noto Sans,10,-1,5,50,0,0,0,0,0" linecolor="#ff0000" posttext="" showstereotype="1" linewidth="0" y="1610.04" height="24" text="pub.date, doi,  pages detail" usefillcolor="1" x="-1123.95" localid="qXQ2QYKKtpJ4" usesdiagramfillcolor="0" isinstance="0" usesdiagramusefillcolor="0" role="700" textcolor="#000000"/>
+         <floatingtext fillcolor="#ffff00" width="306" pretext="" xmi.id="f6pUydsmKIaL" font="Noto Sans,10,-1,5,50,0,0,0,0,0" linecolor="#ff0000" posttext="" showstereotype="1" linewidth="0" y="985.985" height="24" text="status=READY | PREPARATION | REJECTED" usefillcolor="1" x="-1045.86" localid="mgsGfqgA7Iae" usesdiagramfillcolor="0" isinstance="0" usesdiagramusefillcolor="0" role="700" textcolor="#000000"/>
+         <floatingtext fillcolor="#ffff00" width="300" pretext="" xmi.id="f6pUydsmKIaL" font="Noto Sans,10,-1,5,50,0,0,0,0,0" linecolor="#ff0000" posttext="" showstereotype="1" linewidth="0" y="1671.46" height="24" text="status=CURATION|PUBLISHED|REJECTED" usefillcolor="1" x="-1174.37" localid="uET6sASfM58Q" usesdiagramfillcolor="0" isinstance="0" usesdiagramusefillcolor="0" role="700" textcolor="#000000"/>
+         <combinedFragmentwidget fillcolor="#ffff00" width="1000" xmi.id="ruMMp6jUEZLZ" font="Noto Sans,10,-1,5,50,0,0,0,0,0" linecolor="#ff0000" CombinedFragmenttype="3" showstereotype="1" documentation="" linewidth="0" y="432.96" height="201.111" usefillcolor="1" x="-1512.47" localid="iXftrPVufOhh" usesdiagramfillcolor="0" isinstance="0" usesdiagramusefillcolor="0" combinedFragmentname="while(!editing_done | error)" textcolor="#000000"/>
+         <floatingtext fillcolor="#ffff00" width="771" pretext="" xmi.id="AtaiTjyvVGLW" font="Noto Sans,14,-1,5,50,0,0,0,0,0" linecolor="#ff0000" posttext="" showstereotype="1" linewidth="0" y="18.5737" height="33" text="Submission to the registration with curatorial review by the registration office" usefillcolor="1" x="-1510.5" localid="AWrtsJLFu2AX" usesdiagramfillcolor="0" isinstance="0" usesdiagramusefillcolor="0" role="700" textcolor="#000000"/>
+         <floatingtext fillcolor="#ffff00" width="191" pretext="" xmi.id="f6pUydsmKIaL" font="Noto Sans,10,-1,5,50,0,0,0,0,0" linecolor="#ff0000" posttext="" showstereotype="1" linewidth="0" y="1353.2" height="24" text="data {status, name, types}" usefillcolor="1" x="-1100.6" localid="D3ZraiCpkVnU" usesdiagramfillcolor="0" isinstance="0" usesdiagramusefillcolor="0" role="700" textcolor="#000000"/>
+         <floatingtext fillcolor="#ffff00" width="145" pretext="" xmi.id="ahfwoALuPM9H" font="Noto Sans,10,-1,5,50,0,0,0,0,0" linecolor="#ff0000" posttext="" showstereotype="1" linewidth="0" y="269.67" height="24" text="data: {name, types}" usefillcolor="1" x="-1071.53" localid="OdYsokzr89Ra" usesdiagramfillcolor="0" isinstance="0" usesdiagramusefillcolor="0" role="700" textcolor="#000000"/>
+         <floatingtext fillcolor="#ffff00" width="96" pretext="" xmi.id="f6pUydsmKIaL" font="Noto Sans,10,-1,5,50,0,0,0,0,0" linecolor="#ff0000" posttext="" showstereotype="1" linewidth="0" y="518.279" height="24" text="Copy Editing" usefillcolor="1" x="-1317" localid="1BL66iPa6HMq" usesdiagramfillcolor="0" isinstance="0" usesdiagramusefillcolor="0" role="700" textcolor="#000000"/>
+         <floatingtext fillcolor="#ffff00" width="189" pretext="" xmi.id="f6pUydsmKIaL" font="Noto Sans,10,-1,5,50,0,0,0,0,0" linecolor="#ff0000" posttext="" showstereotype="1" linewidth="0" y="721.14" height="24" text="status=CURARTION|error" usefillcolor="1" x="-979" localid="IANrT209Fyae" usesdiagramfillcolor="0" isinstance="0" usesdiagramusefillcolor="0" role="700" textcolor="#000000"/>
+         <combinedFragmentwidget fillcolor="#ffff00" width="696.831" xmi.id="9X0dr3tpDdul" font="Noto Sans,10,-1,5,50,0,0,0,0,0" linecolor="#ff0000" CombinedFragmenttype="1" showstereotype="1" documentation="" linewidth="0" y="1272.55" height="213.403" usefillcolor="1" x="-1479.06" localid="w3McyYWojWV0" usesdiagramfillcolor="0" isinstance="0" usesdiagramusefillcolor="0" combinedFragmentname="" textcolor="#000000"/>
+         <notewidget fillcolor="#ffffff" width="279" xmi.id="TmhUL40R4MMw" font="Noto Sans,10,-1,5,50,0,0,0,0,0" noteType="0" linecolor="#a6a6a6" showstereotype="1" linewidth="0" y="132.767" height="178" text="Registration status types:&#xa;- PREPARATION&#xa;- CURATION&#xa;- READY&#xa;- PUBLISHED&#xa;- REJECTED" usefillcolor="1" x="-800.853" localid="OZc49Z3Ss5kN" usesdiagramfillcolor="0" isinstance="0" usesdiagramusefillcolor="0" textcolor="#000000"/>
+         <notewidget fillcolor="#eeeeee" width="267" xmi.id="zC1nFAy2YpT9" font="Noto Sans,10,-1,5,50,0,0,0,0,0" noteType="0" linecolor="#ff0000" showstereotype="1" linewidth="0" y="901.766" height="119" text="Optional pre publication step to check if the result of the curatorial process is yet availble." usefillcolor="1" x="-1438.63" localid="trvitMPn3NR2" usesdiagramfillcolor="0" isinstance="0" usesdiagramusefillcolor="0" textcolor="#000000"/>
+         <combinedFragmentwidget fillcolor="#ffff00" width="891.277" xmi.id="iSYKgT03mInS" font="Noto Sans,10,-1,5,50,0,0,0,0,0" linecolor="#ff0000" CombinedFragmenttype="7" showstereotype="1" documentation="" linewidth="0" y="1031.86" height="135.516" usefillcolor="1" x="-1483.47" localid="gHPJrKxpgcWH" usesdiagramfillcolor="0" isinstance="0" usesdiagramusefillcolor="0" combinedFragmentname="status = REJECTED" textcolor="#000000"/>
+         <combinedFragmentwidget fillcolor="#ffff00" width="1000" xmi.id="SnNNC2tnHcKA" font="Noto Sans,10,-1,5,50,0,0,0,0,0" linecolor="#ff0000" CombinedFragmenttype="7" showstereotype="1" documentation="" linewidth="0" y="1210.01" height="592.678" usefillcolor="1" x="-1505.14" localid="YfhpNFWsTVeZ" usesdiagramfillcolor="0" isinstance="0" usesdiagramusefillcolor="0" combinedFragmentname="status = READY | CURATION | PREPARATION" textcolor="#000000"/>
+         <notewidget fillcolor="#eeeeee" width="274" xmi.id="ZfS6dfwLe1l2" font="Noto Sans,10,-1,5,50,0,0,0,0,0" noteType="0" linecolor="#ff0000" showstereotype="1" linewidth="0" y="1508.15" height="261" text="Submission of publication date, doi, and pages details will set the registration to PUBLISHED once the curation process has been completed. The immediate reponse can thus also be CURATION (curation still in progress) or REJECTED (severe problem found)" usefillcolor="1" x="-1483.03" localid="VRH44IW6dOob" usesdiagramfillcolor="0" isinstance="0" usesdiagramusefillcolor="0" textcolor="#000000"/>
+         <floatingtext fillcolor="#ffff00" width="185" pretext="" xmi.id="ahfwoALuPM9H" font="Noto Sans,10,-1,5,50,0,0,0,0,0" linecolor="#ff0000" posttext="" showstereotype="1" linewidth="0" y="673.954" height="24" text="data: {status=CURATION}" usefillcolor="1" x="-996" localid="GpCgqQi7yLsP" usesdiagramfillcolor="0" isinstance="0" usesdiagramusefillcolor="0" role="700" textcolor="#000000"/>
+         <notewidget fillcolor="#eeeeee" width="291" xmi.id="rAvm3sQVDGRB" font="Noto Sans,10,-1,5,50,0,0,0,0,0" noteType="0" linecolor="#ff0000" showstereotype="1" linewidth="0" y="170.599" height="65" text="Once the identifier is needed in the editorial process" usefillcolor="1" x="-1169.31" localid="rehMVd3zgvkf" usesdiagramfillcolor="0" isinstance="0" usesdiagramusefillcolor="0" textcolor="#000000"/>
+         <notewidget fillcolor="#eeeeee" width="231" xmi.id="zC1nFAy2YpT9" font="Noto Sans,10,-1,5,50,0,0,0,0,0" noteType="0" linecolor="#ff0000" showstereotype="1" linewidth="0" y="655.541" height="116" text="Once the editing process is completed the registration is passed to the curation." usefillcolor="1" x="-1436.69" localid="ZeYH93CfOXiB" usesdiagramfillcolor="0" isinstance="0" usesdiagramusefillcolor="0" textcolor="#000000"/>
+         <notewidget fillcolor="#eeeeee" width="259" xmi.id="zC1nFAy2YpT9" font="Noto Sans,10,-1,5,50,0,0,0,0,0" noteType="0" linecolor="#ff0000" showstereotype="1" linewidth="0" y="461.652" height="117" text="Any modifications to the nomenclatural act need to be submittet to the registration office" usefillcolor="1" x="-791.568" localid="E5YItkQXQUnq" usesdiagramfillcolor="0" isinstance="0" usesdiagramusefillcolor="0" textcolor="#000000"/>
+         <floatingtext fillcolor="#ffff00" width="203" pretext="" xmi.id="f6pUydsmKIaL" font="Noto Sans,10,-1,5,50,0,0,0,0,0" linecolor="#ff0000" posttext="" showstereotype="1" linewidth="0" y="529.91" height="24" text="status=PREPARATION|error" usefillcolor="1" x="-1121.96" localid="i1OyAB64c6B0" usesdiagramfillcolor="0" isinstance="0" usesdiagramusefillcolor="0" role="700" textcolor="#000000"/>
+         <notewidget fillcolor="#eeeeee" width="247" xmi.id="ZfS6dfwLe1l2" font="Noto Sans,10,-1,5,50,0,0,0,0,0" noteType="0" linecolor="#ff0000" showstereotype="1" linewidth="0" y="1309.1" height="146" text="Verification step to check that the data in the article ist still 100% identical to the data in the registry." usefillcolor="1" x="-1459.61" localid="YzFfPQbMCG7v" usesdiagramfillcolor="0" isinstance="0" usesdiagramusefillcolor="0" textcolor="#000000"/>
+         <combinedFragmentwidget fillcolor="#ffff00" width="998.141" xmi.id="XPFkFRrrqqss" font="Noto Sans,10,-1,5,50,0,0,0,0,0" linecolor="#ff0000" CombinedFragmenttype="1" showstereotype="1" documentation="" linewidth="0" y="893.136" height="290.456" usefillcolor="1" x="-1509.39" localid="Z611q2B6PSF1" usesdiagramfillcolor="0" isinstance="0" usesdiagramusefillcolor="0" combinedFragmentname="" textcolor="#000000"/>
+         <floatingtext fillcolor="#ffff00" width="306" pretext="" xmi.id="f6pUydsmKIaL" font="Noto Sans,10,-1,5,50,0,0,0,0,0" linecolor="#ff0000" posttext="" showstereotype="1" linewidth="0" y="824.993" height="24" text="status=READY | PREPARATION | REJECTED" usefillcolor="1" x="-806.219" localid="PUx96p2w9mBc" usesdiagramfillcolor="0" isinstance="0" usesdiagramusefillcolor="0" role="700" textcolor="#000000"/>
+         <notewidget fillcolor="#eeeeee" width="493" xmi.id="zC1nFAy2YpT9" font="Noto Sans,10,-1,5,50,0,0,0,0,0" noteType="0" linecolor="#ff0000" showstereotype="1" linewidth="0" y="1045.07" height="112" text="A severe scientific problem has been detected by the registration office which is not resolvable. The author team needs to be informed. => reject article or request for correction?" usefillcolor="1" x="-1118.31" localid="IGkLkope4djq" usesdiagramfillcolor="0" isinstance="0" usesdiagramusefillcolor="0" textcolor="#000000"/>
+        </widgets>
+        <messages>
+         <messagewidget fillcolor="none" width="377" seqnum="" xmi.id="83gIaDBBMr3n" font="Noto Sans,10,-1,5,50,0,0,0,0,0" linecolor="#ff0000" widgetbid="J6nfX2oqEkve" showstereotype="1" linewidth="0" y="1606.17" operation="PUT(&quot;/registration/{identifier}&quot;)" height="96" usefillcolor="1" x="-1194" localid="YdJ9u475Aauf" usesdiagramfillcolor="1" isinstance="0" textid="WfwAMrAZ0jPD" usesdiagramusefillcolor="1" sequencemessagetype="1000" textcolor="none" widgetaid="FmFjfY0rcZfV">
+          <floatingtext fillcolor="none" width="226" pretext="" xmi.id="WfwAMrAZ0jPD" font="Noto Sans,10,-1,5,50,0,0,0,0,0" linecolor="#ff0000" posttext="" showstereotype="1" linewidth="0" y="1582" height="24" text="PUT(&quot;/registration/{identifier}&quot;)" usefillcolor="1" x="-1120" localid="WuByNE5BolZw" usesdiagramfillcolor="1" isinstance="0" usesdiagramusefillcolor="1" role="704" textcolor="none"/>
+         </messagewidget>
+         <messagewidget fillcolor="none" width="258" seqnum="" xmi.id="c6aovPe8bO9U" font="Noto Sans,10,-1,5,50,0,0,0,0,0" linecolor="#ff0000" widgetbid="FmFjfY0rcZfV" showstereotype="1" linewidth="0" y="481.581" operation="c6aovPe8bO9U" height="96" usefillcolor="1" x="-1444" localid="V4xULS519CGz" usesdiagramfillcolor="1" isinstance="0" textid="UZsgCfkAmE0H" usesdiagramusefillcolor="1" sequencemessagetype="1000" textcolor="none" widgetaid="WylleRWS6aIO">
+          <floatingtext fillcolor="none" width="111" pretext="" xmi.id="UZsgCfkAmE0H" font="Noto Sans,10,-1,5,50,0,0,0,0,0" linecolor="#ff0000" posttext="" showstereotype="1" linewidth="0" y="457" height="24" text="ArticleEditing()" usefillcolor="1" x="-1328" localid="tT4Y529wo4J7" usesdiagramfillcolor="1" isinstance="0" usesdiagramusefillcolor="1" role="704" textcolor="none"/>
+         </messagewidget>
+         <messagewidget fillcolor="none" width="377" seqnum="" xmi.id="Fzkq8yNcbWmf" font="Noto Sans,10,-1,5,50,0,0,0,0,0" linecolor="#ff0000" widgetbid="J6nfX2oqEkve" showstereotype="1" linewidth="0" y="1311.28" operation="GET(&quot;/registration/{identifier}&quot;)" height="73" usefillcolor="1" x="-1194" localid="uJrYTJgu0K2e" usesdiagramfillcolor="1" isinstance="0" textid="mGs0RckVk8nd" usesdiagramusefillcolor="1" sequencemessagetype="1000" textcolor="none" widgetaid="FmFjfY0rcZfV">
+          <floatingtext fillcolor="none" width="225" pretext="" xmi.id="mGs0RckVk8nd" font="Noto Sans,10,-1,5,50,0,0,0,0,0" linecolor="#ff0000" posttext="" showstereotype="1" linewidth="0" y="1287" height="24" text="GET(&quot;/registration/{identifier}&quot;)" usefillcolor="1" x="-1146" localid="djHY4hWra27w" usesdiagramfillcolor="1" isinstance="0" usesdiagramusefillcolor="1" role="704" textcolor="none"/>
+         </messagewidget>
+         <messagewidget fillcolor="none" width="377" seqnum="" xmi.id="5RSKtkX46XkQ" font="Noto Sans,10,-1,5,50,0,0,0,0,0" linecolor="#ff0000" widgetbid="J6nfX2oqEkve" showstereotype="1" linewidth="0" y="268.666" operation="POST(&quot;/registration/&quot;)" height="93" usefillcolor="1" x="-1194" localid="ASGPjqyKUQGh" usesdiagramfillcolor="1" isinstance="0" textid="eyc2zmJuJ3e2" usesdiagramusefillcolor="1" sequencemessagetype="1000" textcolor="none" widgetaid="FmFjfY0rcZfV">
+          <floatingtext fillcolor="none" width="160" pretext="" xmi.id="eyc2zmJuJ3e2" font="Noto Sans,10,-1,5,50,0,0,0,0,0" linecolor="#ff0000" posttext="" showstereotype="1" linewidth="0" y="244" height="24" text="POST(&quot;/registration/&quot;)" usefillcolor="1" x="-1022" localid="G5FUbQSxiK6y" usesdiagramfillcolor="1" isinstance="0" usesdiagramusefillcolor="1" role="704" textcolor="none"/>
+         </messagewidget>
+         <messagewidget fillcolor="none" width="258" seqnum="" xmi.id="c6aovPe8bO9U" font="Noto Sans,10,-1,5,50,0,0,0,0,0" linecolor="#ff0000" widgetbid="FmFjfY0rcZfV" showstereotype="1" linewidth="0" y="210.737" operation="Article editing" height="189" usefillcolor="1" x="-1444" localid="Wt4gBc6dc6AN" usesdiagramfillcolor="1" isinstance="0" textid="k1BLuXUIor6W" usesdiagramusefillcolor="1" sequencemessagetype="1000" textcolor="none" widgetaid="WylleRWS6aIO">
+          <floatingtext fillcolor="none" width="106" pretext="" xmi.id="k1BLuXUIor6W" font="Noto Sans,10,-1,5,50,0,0,0,0,0" linecolor="#ff0000" posttext="" showstereotype="1" linewidth="0" y="186" height="24" text="Article editing" usefillcolor="1" x="-1328" localid="StKqHVdMQa9t" usesdiagramfillcolor="1" isinstance="0" usesdiagramusefillcolor="1" role="704" textcolor="none"/>
+         </messagewidget>
+         <messagewidget fillcolor="none" width="595" seqnum="" xmi.id="osNKd0oeznas" font="Noto Sans,10,-1,5,50,0,0,0,0,0" linecolor="#ff0000" widgetbid="n7t72HySalvv" showstereotype="1" linewidth="0" y="932.304" operation="GET(&quot;/registration/{identifier}/status&quot;)" height="88" usefillcolor="1" x="-1194" localid="2MpxFk99auSl" usesdiagramfillcolor="1" isinstance="0" textid="vLwYjcU03vae" usesdiagramusefillcolor="1" sequencemessagetype="1000" textcolor="none" widgetaid="FmFjfY0rcZfV">
+          <floatingtext fillcolor="none" width="274" pretext="" xmi.id="vLwYjcU03vae" font="Noto Sans,10,-1,5,50,0,0,0,0,0" linecolor="#ff0000" posttext="" showstereotype="1" linewidth="0" y="908" height="24" text="GET(&quot;/registration/{identifier}/status&quot;)" usefillcolor="1" x="-1017" localid="8sy1mZ5IfnAH" usesdiagramfillcolor="1" isinstance="0" usesdiagramusefillcolor="1" role="704" textcolor="none"/>
+         </messagewidget>
+         <messagewidget fillcolor="none" width="377" seqnum="" xmi.id="Fzkq8yNcbWmf" font="Noto Sans,10,-1,5,50,0,0,0,0,0" linecolor="#ff0000" widgetbid="J6nfX2oqEkve" showstereotype="1" linewidth="0" y="488.558" operation="PUT(&quot;/registration/{identifier}&quot;)" height="73" usefillcolor="1" x="-1194" localid="zHp653HG0lnW" usesdiagramfillcolor="1" isinstance="0" textid="vhI6J3KbU5LG" usesdiagramusefillcolor="1" sequencemessagetype="1000" textcolor="none" widgetaid="FmFjfY0rcZfV">
+          <floatingtext fillcolor="none" width="226" pretext="" xmi.id="vhI6J3KbU5LG" font="Noto Sans,10,-1,5,50,0,0,0,0,0" linecolor="#ff0000" posttext="" showstereotype="1" linewidth="0" y="464" height="24" text="PUT(&quot;/registration/{identifier}&quot;)" usefillcolor="1" x="-1146" localid="RIJzUNTrliEx" usesdiagramfillcolor="1" isinstance="0" usesdiagramusefillcolor="1" role="704" textcolor="none"/>
+         </messagewidget>
+         <messagewidget fillcolor="none" width="50" seqnum="" xmi.id="kWMJVkMbG4Vk" font="Noto Sans,10,-1,5,50,0,0,0,0,0" linecolor="#ff0000" widgetbid="FmFjfY0rcZfV" showstereotype="1" linewidth="0" y="1417.92" operation="verify data in article" height="46" usefillcolor="1" x="-1196" localid="MR0eNGWXUejo" usesdiagramfillcolor="1" isinstance="0" textid="vkoKwkoRJLeX" usesdiagramusefillcolor="1" sequencemessagetype="1000" textcolor="none" widgetaid="FmFjfY0rcZfV">
+          <floatingtext fillcolor="none" width="147" pretext="" xmi.id="vkoKwkoRJLeX" font="Noto Sans,10,-1,5,50,0,0,0,0,0" linecolor="#ff0000" posttext="" showstereotype="1" linewidth="0" y="1393" height="24" text="verify data in article" usefillcolor="1" x="-1191" localid="vMCfgo09O1df" usesdiagramfillcolor="1" isinstance="0" usesdiagramusefillcolor="1" role="705" textcolor="none"/>
+         </messagewidget>
+         <messagewidget fillcolor="none" width="248" seqnum="" xmi.id="IBjM5SVkisB8" font="Noto Sans,10,-1,5,50,0,0,0,0,0" linecolor="#ff0000" widgetbid="WylleRWS6aIO" showstereotype="1" linewidth="0" y="1138.67" operation="report to authorteam" height="8" usefillcolor="1" x="-1443" localid="O8x9bpxVqBz4" usesdiagramfillcolor="1" isinstance="0" textid="ZUu9USi5JZIh" usesdiagramusefillcolor="1" sequencemessagetype="1001" textcolor="none" widgetaid="FmFjfY0rcZfV">
+          <floatingtext fillcolor="none" width="159" pretext="" xmi.id="ZUu9USi5JZIh" font="Noto Sans,10,-1,5,50,0,0,0,0,0" linecolor="#ff0000" posttext="" showstereotype="1" linewidth="0" y="1114" height="24" text="report to authorteam" usefillcolor="1" x="-1383" localid="9iBm65UiQcbG" usesdiagramfillcolor="1" isinstance="0" usesdiagramusefillcolor="1" role="704" textcolor="none"/>
+         </messagewidget>
+         <messagewidget fillcolor="none" width="50" seqnum="" xmi.id="dKyk4EToa4nN" font="Noto Sans,10,-1,5,50,0,0,0,0,0" linecolor="#ff0000" widgetbid="FmFjfY0rcZfV" showstereotype="1" linewidth="0" y="1561.26" operation="Release Article" height="201" usefillcolor="1" x="-1196" localid="V4vLTt7sxoWX" usesdiagramfillcolor="1" isinstance="0" textid="AdutM2B9OSSR" usesdiagramusefillcolor="1" sequencemessagetype="1000" textcolor="none" widgetaid="FmFjfY0rcZfV">
+          <floatingtext fillcolor="none" width="111" pretext="" xmi.id="AdutM2B9OSSR" font="Noto Sans,10,-1,5,50,0,0,0,0,0" linecolor="#ff0000" posttext="" showstereotype="1" linewidth="0" y="1537" height="24" text="Release Article" usefillcolor="1" x="-1191" localid="2Vb3tyEAh4su" usesdiagramfillcolor="1" isinstance="0" usesdiagramusefillcolor="1" role="705" textcolor="none"/>
+         </messagewidget>
+         <messagewidget fillcolor="none" width="50" seqnum="" xmi.id="gfoH0St0zQPU" font="Noto Sans,10,-1,5,50,0,0,0,0,0" linecolor="#ff0000" widgetbid="J6nfX2oqEkve" showstereotype="1" linewidth="0" y="788.746" operation="curatorialRevision" height="68" usefillcolor="1" x="-827" localid="YMHKCJMmth4m" usesdiagramfillcolor="1" isinstance="0" textid="09p0cZHOiFFB" usesdiagramusefillcolor="1" sequencemessagetype="1000" textcolor="none" widgetaid="J6nfX2oqEkve">
+          <floatingtext fillcolor="none" width="134" pretext="" xmi.id="09p0cZHOiFFB" font="Noto Sans,10,-1,5,50,0,0,0,0,0" linecolor="#ff0000" posttext="" showstereotype="1" linewidth="0" y="764" height="24" text="curatorialRevision" usefillcolor="1" x="-822" localid="DI7wsWpBULZR" usesdiagramfillcolor="1" isinstance="0" usesdiagramusefillcolor="1" role="705" textcolor="none"/>
+         </messagewidget>
+         <messagewidget fillcolor="none" width="595" seqnum="" xmi.id="osNKd0oeznas" font="Noto Sans,10,-1,5,50,0,0,0,0,0" linecolor="#ff0000" widgetbid="n7t72HySalvv" showstereotype="1" linewidth="0" y="665.623" operation="PUT(&quot;/registration/{identifier}/status&quot;)" height="88" usefillcolor="1" x="-1194" localid="SZRcWTiveI9K" usesdiagramfillcolor="1" isinstance="0" textid="ueIPcXhnDV7p" usesdiagramusefillcolor="1" sequencemessagetype="1000" textcolor="none" widgetaid="FmFjfY0rcZfV">
+          <floatingtext fillcolor="none" width="274" pretext="" xmi.id="ueIPcXhnDV7p" font="Noto Sans,10,-1,5,50,0,0,0,0,0" linecolor="#ff0000" posttext="" showstereotype="1" linewidth="0" y="641" height="24" text="PUT(&quot;/registration/{identifier}/status&quot;)" usefillcolor="1" x="-1017" localid="KahV7v5KLT6p" usesdiagramfillcolor="1" isinstance="0" usesdiagramusefillcolor="1" role="704" textcolor="none"/>
+         </messagewidget>
+        </messages>
+        <associations>
+         <assocwidget fillcolor="none" visibilityB="0" totalcountb="2" seqnum="" visibilityA="0" font="Noto Sans,10,-1,5,50,0,0,0,0,0" linecolor="#ff0000" widgetbid="rAvm3sQVDGRB" documentation="" type="513" totalcounta="2" roleAdoc="" linewidth="0" roleBdoc="" indexb="1" usefillcolor="1" usesdiagramfillcolor="1" usesdiagramusefillcolor="0" changeabilityB="900" textcolor="none" changeabilityA="900" widgetaid="5RSKtkX46XkQ" indexa="1">
+          <linepath layout="Polyline">
+           <startpoint starty="268.666" startx="-1153.76"/>
+           <endpoint endy="235.599" endx="-1153.76"/>
+          </linepath>
+         </assocwidget>
+        </associations>
+       </diagram>
+      </diagrams>
+     </XMI.extension>
+    </UML:Model>
+    <UML:Model isAbstract="false" isRoot="false" visibility="public" isLeaf="false" isSpecification="false" namespace="m1" xmi.id="Use Case View" name="Use Case View">
+     <UML:Namespace.ownedElement/>
+    </UML:Model>
+    <UML:Model isAbstract="false" isRoot="false" visibility="public" isLeaf="false" isSpecification="false" namespace="m1" xmi.id="Component View" name="Component View">
+     <UML:Namespace.ownedElement/>
+    </UML:Model>
+    <UML:Model isAbstract="false" isRoot="false" visibility="public" isLeaf="false" isSpecification="false" namespace="m1" xmi.id="Deployment View" name="Deployment View">
+     <UML:Namespace.ownedElement/>
+    </UML:Model>
+    <UML:Model isAbstract="false" isRoot="false" visibility="public" isLeaf="false" isSpecification="false" namespace="m1" xmi.id="Entity Relationship Model" name="Entity Relationship Model">
+     <UML:Namespace.ownedElement/>
+    </UML:Model>
+   </UML:Namespace.ownedElement>
+  </UML:Model>
+ </XMI.content>
+ <XMI.extensions xmi.extender="umbrello">
+  <docsettings documentation="" viewid="MG2K0aVFxcNt" uniqueid="IGkLkope4djq"/>
+  <listview>
+   <listitem id="Views" type="800" open="1">
+    <listitem id="Component View" type="821" open="1"/>
+    <listitem id="Deployment View" type="827" open="1"/>
+    <listitem id="Entity Relationship Model" type="836" open="1"/>
+    <listitem id="Logical View" type="801" open="1">
+     <listitem id="GLIts0KklgQJ" type="813" open="1"/>
+     <listitem id="3ALKfbZerI3B" type="813" open="1"/>
+     <listitem label="class diagram" id="zpWpwWO54MPz" type="807" open="0"/>
+     <listitem id="Datatypes" type="830" open="0">
+      <listitem id="RJWi6Hjjxb0S" type="829" open="1"/>
+      <listitem id="MWwwgeYlCGf3" type="829" open="1"/>
+      <listitem id="Ssm3VzYTNcLa" type="829" open="1"/>
+      <listitem id="ittxDnSu587d" type="829" open="1"/>
+      <listitem id="xIWSFpttnRx3" type="829" open="1"/>
+      <listitem id="zngn6sk2i7UT" type="829" open="1"/>
+      <listitem id="TZL5TWww4Dg3" type="829" open="1"/>
+      <listitem id="FEwVvGVVZdmU" type="829" open="1"/>
+      <listitem id="BaSPEo0HapEp" type="829" open="1"/>
+      <listitem id="y4AJe8Xvy2Vg" type="829" open="1"/>
+      <listitem id="1XzBMY1oB2r0" type="829" open="1"/>
+     </listitem>
+     <listitem id="3DR1UZdlwyjT" type="813" open="1">
+      <listitem id="c6aovPe8bO9U" type="815" open="0"/>
+      <listitem id="qjmbGnXSVh0o" type="815" open="0"/>
+     </listitem>
+     <listitem label="registration submission and publication - no curation " id="AG5AUYoxSDh8" type="810" open="0"/>
+     <listitem id="JzXHXcDNR9dU" type="813" open="1">
+      <listitem id="CpaDfJgQvAUm" type="815" open="0"/>
+     </listitem>
+     <listitem id="PRkFNv0u5323" type="813" open="1"/>
+     <listitem label="submission and publication" id="whlAQU1s2F7G" type="808" open="0"/>
+     <listitem label="submission and publication with curation" id="MG2K0aVFxcNt" type="810" open="0"/>
+    </listitem>
+    <listitem id="Use Case View" type="802" open="1"/>
+   </listitem>
+  </listview>
+  <codegeneration>
+   <codegenerator language="C++"/>
+  </codegeneration>
+ </XMI.extensions>
+</XMI>
